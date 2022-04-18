@@ -1,0 +1,12 @@
+.MuiTab-root {
+    margin: 0rem 1rem;
+    color: var(--coal);
+    font-weight: bold;
+}
+
+.MuiTab-root.MuiTabs-indicator {
+    height: 3px;
+}
+.MuiTab-root.Mui-selected.Mui-selected {
+    color: var(--coal);
+}

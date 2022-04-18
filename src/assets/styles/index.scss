@@ -1,0 +1,67 @@
+/* Global styles for the app */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@import './components/';
+@import './views/';
+
+:root {
+    --theme-font: 'Lato', sans-serif;
+    --body-bg: #e6e8ea;
+    --primary: #0099ff;
+    --coal: #1a2733;
+    --bg-white: #ffffff;
+    --modal-hr: #d8d8d8;
+    --modal-backdrop: #88c2f5;
+    --bg-black: #000000;
+}
+
+body {
+    margin: 0;
+    font-family: var(--theme-font);
+    background-color: var(--body-bg);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+// -----------------global Background Colors-----------------//
+
+.bg-white {
+    background-color: var(--bg-white);
+}
+.bg-primary {
+    background-color: var(--primary);
+}
+
+p {
+    color: var(--coal);
+    font-family: Lato;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+// ------------------Table Style Starts here------------------//
+.MuiTableCell-head {
+    color: #1a2733;
+    font-family: 'LATO';
+    height: 23px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: auto 16px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+.MuiTableCell-body {
+    height: 11px;
+}
+.table-row {
+    padding: 10px 16px;
+    color: var(--coal);
+    font-family: 'Lato' !important;
+    font-size: 14px !important;
+    letter-spacing: 0;
+    line-height: 18px !important;
+}

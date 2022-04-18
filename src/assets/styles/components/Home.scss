@@ -1,0 +1,17 @@
+.btnGroupRight {
+    border-right: 0px !important;
+}
+.rightSide {
+    background: url(../../images/developer-salary-guide-icon.png) no-repeat top center;
+
+    height: 70%;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width: 440px) {
+    .FllWidthBtn {
+        width: 100%;
+    }
+}
